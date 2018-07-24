@@ -1,0 +1,27 @@
+cd client
+npm install reactstrap bootstrap uuid react-transition-group
+npm install redux react-redux
+npm install redux-thunk
+cls
+npm install axios
+cd ..
+git add .
+git commit -m "Version 1.0.0"
+git push Username: simplatonov Password: Eimuutajohtajaa02!
+git push username: simplatonov password: Eimuutajohtajaa02!
+git push username: simplatonov 
+git push
+npm init
+npm install express body-parser mongoose concurrently
+npm install nodemon
+npm server
+npm urn
+npm run
+npm run server.js
+npm run server
+cd client
+create-react-app .
+cd ..
+cls
+npm install cors
+npm run dev
