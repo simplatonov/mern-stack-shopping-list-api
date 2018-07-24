@@ -1,29 +1,35 @@
+
 {
   "name": "mern-stack-shopping-list",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shopping list",
+  "engines": {
+    "node": "8.11.3"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js",
+    "test": "node server.js"
+  },
+  "dependencies": {
+    "body-parser":"^1.18.3",
+    "concurrently":"^3.6.0",
+    "cors":"^2.8.4",
+    "express":"^4.16.3",
+    "mongoose":"^5.2.5"
+  },
+  "devDependencies": {
 
+    "nodemon":"^1.18.3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simplatonov/mern-stack-shopping-list.git"
   },
-  "author": "Simeon Platonov",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/simplatonov/mern-stack-shopping-list/issues"
-  },
-  "homepage": "https://github.com/simplatonov/mern-stack-shopping-list#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "concurrently": "^3.6.0",
-    "cors": "^2.8.4",
-    "express": "^4.16.3",
-    "mongoose": "^5.2.5",
-    "nodemon": "^1.18.3"
-  }
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
